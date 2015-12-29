@@ -31,6 +31,8 @@
 	<iframe data-aa='110210' src='https://ad.a-ads.com/110210?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
 	<iframe data-aa='110210' src='https://ad.a-ads.com/110210?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
 	<iframe data-aa='110210' src='https://ad.a-ads.com/110210?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+	<iframe data-aa='110212' src='https://ad.a-ads.com/110212?size=468x60' scrolling='no' style='width:468px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+	<iframe data-aa='110212' src='https://ad.a-ads.com/110212?size=468x60' scrolling='no' style='width:468px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
 	<div id='dump'>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -50,14 +52,8 @@
 			}
 			k++;
 			$.ajax({
-			    type: "POST",
-			    url: "http://projectlever.com/beta-code2/api/matchResults.php",
-			    dataType: "jsonp",
-			    data: {
-			    	input: 'project lever',
-			    	session: k,
-			    	test_drive: 'true'
-			    }
+			    type: "GET",
+			    url: "http://projectlever.com"
 			});
 			
 		}, 1532)
